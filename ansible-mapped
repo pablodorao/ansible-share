@@ -1,5 +1,5 @@
 ---
-- name: create mapped drive with local credentials
+- name: Mapear Unidad letraM
   win_mapped_drive:
     letter: M
     path: \\192.168.100.54\compartir
