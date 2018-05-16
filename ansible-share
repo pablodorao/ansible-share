@@ -1,0 +1,9 @@
+---
+- name: Carpeta Compartida
+  win_share:
+    name: compartir
+    description: Prueba de carpeta
+    path: C:\compartir
+    list: yes
+    full: Administrador
+    read: Global
