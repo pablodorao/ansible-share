@@ -1,7 +1,10 @@
 ---
-- name: Mapear Unidad letraM
-  win_mapped_drive:
-    letter: M
-    path: \\192.168.100.54\compartir
-    username: 192.168.100.54\Administrador
-    password: Password123
+- name: Mapear Unidad letra M
+  hosts: all
+  tasks:
+    - name: Unidad M
+        win_mapped_drive:
+          letter: M
+          path: \\192.168.100.54\compartir
+          username: 192.168.100.54\Administrador
+          password: Password123
