@@ -2,6 +2,6 @@
 - name: create mapped drive with local credentials
   win_mapped_drive:
     letter: M
-    path: \\SERVER\c$
-    username: SERVER\Administrator
-    password: Password
+    path: \\192.168.100.54\compartir
+    username: 192.168.100.54\Administrador
+    password: Password123
