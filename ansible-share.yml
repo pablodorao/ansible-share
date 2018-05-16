@@ -3,10 +3,10 @@
   hosts: all
   tasks:
     - name: Compartir
-        win_share:
-          name: compartir
-          description: Prueba de carpeta
-          path: C:\compartir
-          list: yes
-          full: Administrador
-          read: Global
+      win_share:
+        name: compartir
+        description: Prueba de carpeta
+        path: C:\compartir
+        list: yes
+        full: Administrador
+        read: Global
